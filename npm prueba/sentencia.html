@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentencia</title>
+</head>
+
+<body>
+    <h1>Sentencia de JavaScript</h1>
+
+    <h2>Punto y Coma</h2>
+    <p>Es recomendable utilizar ; al final de cada sentencia</p>
+    <script>
+        var a = 1
+        var b = 2
+        var c = a + b
+        alert(c);
+    </script>
+    <p>Podemos escribir varias sentencias en la misma linea separandolas con punto y coma</p>
+    <!-- Este script de abajo lo hizo el profesor en la pizarra -->
+    <script>
+        // Se pueden asignar distintos var en una  misma sentencia.
+        var a, b = 56, c;
+
+        // Demostracion de como se haria en distintas sentencias.
+        var a;
+        var b = 56;
+        var c;
+
+        // Demostracion de comom en una misma linea pueden haber diferentes sentrencias.
+        var a = 4; var c = a + 24; c = 36 + a;
+    </script>
+
+    <h2>Espacios en blanco</h2>
+    <p>Los multiples espacios en blanco se ignoran.</p>
+    <script>
+        var nombre = 'hola';
+        alert (nombre);
+    </script>
+
+    <h2>Lineas de mas de 80 caracteres</h2>
+    <p>Es recomendable dividir la linea despues de un operador</p>
+    <script>
+        var apellido =
+        'Lovelacer';
+        alert(apellido);
+    </script>
+
+    <h2>Bloques de codigo</h2>
+    <p>Se utilizan en funciones, bucles, condiciones, etc</p>
+    <script>
+        function hola() {
+            alert('hola')
+            alert('caracola')
+        }
+    </script>
+
+    <h2>Palabras reservadas (keywords)</h2>
+    <ul>
+        <li>break</li>
+        <li>continue</li>
+        <li>switch</li>
+        <li>for</li>
+        <li>do ... while</li>
+        <li>if ... else</li>
+        <li>debugger</li>
+        <li>try ... catch</li>
+        <li>var</li>
+        <li>function</li>
+        <li>return</li>
+    </ul>
+    
+</body>
+
+</html>

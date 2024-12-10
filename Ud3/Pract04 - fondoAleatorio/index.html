@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fondo aleatorio</title>
+        
+        <style>
+            #fondo{
+                position:fixed;
+                left:0;
+                top:0;
+                width:100%;
+                height:100%;
+            }
+            </style>
+
+    </head>
+
+    <body>
+        
+        <script>
+           // let ele = document.gerElementById('cosa');
+            
+            //ele.style.backgroundColor
+            //ele.setAtribute
+
+            let rojo=parseInt(Math.random()*255);
+            let verde=parseInt(Math.random()*255);
+            let azul=parseInt(Math.random()*255);
+
+            document.write(
+            `<div id='fondo' ` +
+            `style= 'background-color:rgb(${rojo},${verde},${azul})'>` +
+            `</div>`
+            );
+            </script>
+            
+    </body>
+
+</html>
