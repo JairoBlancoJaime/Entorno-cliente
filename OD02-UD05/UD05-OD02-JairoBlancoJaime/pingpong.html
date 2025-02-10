@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>PingPong</title>
+        <link rel="stylesheet" href="estilos.css" />
+        <script defer src="pingpong.js">
+            canvas = document.getElementById("campo");
+
+            context.fillStyle = "red";
+            context.clearRect(0, 0, ancho_canvas, alto_canvas);
+            context.fillRect(ancho_canvas/2, 0, 2, alto_canvas);
+        </script>
+    </head>
+
+    <body>
+        <div>
+            <canvas id="campo" width="600" height="300"></canvas>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Prueba 1</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="script.js">
+            
+        </script>
+    </head>
+
+    <body>
+        <script>
+            let a = new String("Hola")
+
+            const b = {}
+            console.log(b);
+
+            const c = new Object();
+            console.log(c);
+            
+            /*****  
+                    *    Los objetos dentro de una variable
+                    *    se van a llamar atributos/propiedades
+                    *    y a las funciones se le llaman metodos.
+            *****/
+            const jon = {
+                nombre: "Jon",
+                apellido: "MinCha",
+                edad: 16,
+                pasatiempos: ["Comer", "Hacer ejercicio", "Dar clases"],
+                soltero: false,
+                contacto: {
+                    email: "jonmicha@gmail.com",
+                    twitter: "@jonmicha",
+                    movil: "5215512345678",
+                },
+                saludar: function() {
+                    console.log("Hola :)");
+                }
+            };  
+        </script>
+    </body>
+</html>
